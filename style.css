@@ -1,3 +1,46 @@
+/* Navigation bar with logo */
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+.nav-logo {
+	display: flex;
+	align-items: center;
+}
+.company-logo {
+	height: 48px;
+	width: auto;
+	margin-right: 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 1px 4px rgba(80,70,110,0.08);
+	background: #fff;
+}
+.nav-links {
+	display: flex;
+	gap: 2rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+@media (max-width: 700px) {
+	.navbar {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 0.5rem;
+	}
+	.nav-links {
+		justify-content: center;
+		gap: 1rem;
+	}
+	.company-logo {
+		height: 36px;
+		margin-right: 0.5rem;
+	}
+}
 /* Banner styles */
 .banner-container {
 	width: 100%;
