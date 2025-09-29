@@ -1,0 +1,95 @@
+/* Modern Holistics Theme */
+html {
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+	background: #f6f9f6;
+	color: #2e3d27;
+}
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+header {
+	background: linear-gradient(90deg, #b7e4c7 0%, #f9e7b7 100%);
+	color: #2e3d27;
+	padding: 2rem 0 1rem 0;
+	text-align: center;
+	box-shadow: 0 2px 8px rgba(46,61,39,0.07);
+}
+header h1 {
+	margin: 0 0 0.5rem 0;
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+nav a {
+	text-decoration: none;
+	color: #2e3d27;
+	font-weight: 500;
+	padding: 0.5rem 1rem;
+	border-radius: 6px;
+	transition: background 0.2s, color 0.2s;
+}
+nav a:hover, nav a:focus {
+	background: #b7e4c7;
+	color: #1b2a16;
+}
+main {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	max-width: 1100px;
+	margin: 2rem auto;
+	padding: 0 1rem;
+}
+section {
+	background: #fffbe7;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(46,61,39,0.06);
+	padding: 2rem 1.5rem;
+	flex: 1 1 0;
+	min-width: 250px;
+}
+section h2 {
+	color: #7a5c00;
+	margin-top: 0;
+}
+ul {
+	padding-left: 1.2em;
+}
+a {
+	color: #3a7d3a;
+	text-decoration: underline;
+}
+a:hover {
+	color: #b68900;
+}
+footer {
+	background: #b7e4c7;
+	color: #2e3d27;
+	text-align: center;
+	padding: 1rem 0;
+	font-size: 1rem;
+	margin-top: auto;
+	box-shadow: 0 -2px 8px rgba(46,61,39,0.07);
+}
+@media (max-width: 900px) {
+	main {
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+	section {
+		padding: 1.2rem 1rem;
+	}
+}
