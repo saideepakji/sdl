@@ -44,12 +44,13 @@
 	align-items: center;
 }
 .company-logo {
-	height: 48px;
-	width: auto;
+	height: 100px;
+	width: 100px;
 	margin-right: 1.5rem;
 	border-radius: 8px;
 	box-shadow: 0 1px 4px rgba(80,70,110,0.08);
 	background: #fff;
+	object-fit: contain;
 }
 .nav-links {
 	display: flex;
@@ -69,7 +70,8 @@
 		gap: 1rem;
 	}
 	.company-logo {
-		height: 36px;
+		height: 80px;
+		width: 80px;
 		margin-right: 0.5rem;
 	}
 }
